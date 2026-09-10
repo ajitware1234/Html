@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+     img{
+        height: 200px;
+        width: 200px;
+     }
+     .container{
+        position: relative;width: 25% ;height:auto;
+     }
+
+     .overlay{
+          position: absolute; transition: 0.5s ease;
+        height: 300px;width: 300px;top: 0;
+        background-color: blue;opacity: 0;
+     }
+     .container:hover .overlay{
+        opacity: 0.9;
+
+     }
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <img src="virat.jpg">
+        <div class="overlay"></div>
+    </div>
+</body>
+</html>

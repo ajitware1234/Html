@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+   <style>
+     body{
+        background: linear-gradient(to right, purple, darkblue, violet,purple,yellow);
+        min-height: 100vh;
+     }
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            gap: 15px;
+        }
+         .logo {
+      font-size: 30px;
+      font-weight: bold;
+      color: #230527;
+      
+    }
+    .search-container {
+      display: flex;
+      flex: 1;
+      
+    }
+    .search-select {
+      background: #965fc2;
+    
+      padding: 10px;
+      border-radius: 4px 0 0 4px;
+    }
+    .search-btn {
+      background-color: #b56dbd;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 0 4px 4px 0;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+            
+    .search-input {
+      width: 100%;
+      padding: 10px;
+      border-color: #3686e8;
+      background-color: #69418a;
+     }
+     .search-input::placeholder{
+        color: rgb(7, 1, 15);
+     }
+     .nav-link {
+      color: rgb(15, 3, 3);
+      
+      font-size: 30px;
+    }
+  </style>
+ <style>
+        .sub-nav{
+             background-color: #3686e8;
+            gap: 15px;
+            padding: 10px 20px;
+            display: flex;
+            font-size: 14px;
+
+      
+    }
+    .sub-nav a {
+      color: white;
+      
+    }
+
+    </style>
+    <style>
+        
+         .hero {
+      background: linear-gradient(to bottom, #232f3e, #eaeded);
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #131921;
+    }
+    </style>
+    <style>
+        .product-grid {
+      max-width: 1200px;
+      margin: -60px auto 20px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 0 20px;
+    }
+
+     .card {
+      background: rgb(36, 24, 24);
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0 2px 5px rgba(168, 28, 28, 0.1);
+    }
+    .card h3 {
+        color: #4b0085;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .card-img {
+      width: 100%;
+      height: 180px;
+      background-color: #959b8cbc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #040101ed;
+      margin-bottom: 10px;
+    }
+    .card a {
+      color: #09a7e6;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    </style>
+    <style>
+        
+    </style>
+</head>
+<body>
+    
+<header>
+
+    <a href="#" class="logo">amazon</a>
+    <div  class="search-container">
+            <select class="search-select">
+                <option>All</option>
+                <option>Electronics</option>
+                <option>Fashion</option> 
+                
+         </select>
+         <input type="text" class="search-input" placeholder="search amazon">
+         <button class="search-btn" >search</button>
+
+    </div>
+
+    <a href="#" class="nav-link">sign in</a>
+    <a href="#" class="nav-link">Orders</a>
+    <a href="#" class="nav-link">Cart</a>
+    
+</header>
+    
+<div class="sub-nav">
+    <a href=""><strong>All</strong></a>
+    <a href="">Today deals</a>
+    <a href="" >Customer Service</a>
+    <a href="">Registry</a>
+    <a href="">Gift Cards</a>
+    <a href="">sell</a>
+
+</div>
+
+<div class="hero">
+    <h2> Welcome to amazon</h2>
+</div>
+
+<main class="product-grid">
+    <div class="card">
+        <h3> Electronics and Tech</h3>
+        <div class="card-img">product img</div>
+        <a href="">shop now</a>
+    </div>
+    <div class="card">
+        <h3>Home Improvement</h3>
+        <div class="card-img">product image</div>
+        <a href="">Explore option</a>
+    </div>
+    <div class="card">
+        <h3>Fashion Trends</h3>
+        <div class="card-img">product Image</div>
+        <a href="">see collection</a>
+    </div>
+    <div class="card">
+        <h3>Deals & Discounts</h3>
+        <div class="card-img">product image</div>
+        <a href="">View all deals</a>
+    </div>
+    </main>
+
+</body>  
+</html>  
